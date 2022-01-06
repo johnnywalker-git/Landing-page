@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../Udemy/Ninja/Quiz_Project"
+		},
+		{
+			"path": "../../Udemy/Ninja/To-do-list"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Landing page"
+	}
+}

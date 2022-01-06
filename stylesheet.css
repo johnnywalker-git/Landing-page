@@ -1,0 +1,128 @@
+
+.nav-bar {
+    background-color: #b3b3b37a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+    
+}
+
+.jw-head {
+    padding-bottom: 390px;
+    height: 20px;
+    text-align: center;
+
+   
+   
+}
+ 
+img  {
+    padding-bottom: px;
+    height: 250px;
+    text-align: center;
+    
+}
+
+.header {
+    
+    height: 350px;
+    background-color: black;
+    background-image: url("JW-photo.jpg");
+    background-position: center;
+    border-radius: 10px;
+    background-size: cover;
+    
+    
+}
+
+body {
+    background-color:gray;
+}
+
+.tracks {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #b3b3b357;
+    border-radius: 10px; 
+
+    
+    
+    
+    
+}
+
+.p-track-1 {
+
+    height: 100%auto;
+    width: auto;
+    padding: 10px;
+    background-color: #ffffff75;
+    border-radius: 10px; 
+
+    
+
+}
+
+.p-track-2 {
+
+    height: 100%auto;
+    width: auto;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ffffff75;
+    border-radius: 10px; 
+
+
+}
+
+
+
+a {
+    color:inherit;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 414px) {
+
+    img  {
+        padding-bottom: px;
+        height: 150px;
+        text-align: center;
+        
+    }
+    .jw-head {
+        padding-bottom: 200px;
+        height: 20px;
+        text-align: center;
+    }
+
+    .header {
+    
+        height: 250px;
+        background-color: black;
+        background-image: url("JW-photo.jpg");
+        background-position: center;
+        border-radius: 10px;
+        background-size: cover;
+
+
+}

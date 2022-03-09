@@ -88,7 +88,7 @@ a {
     color:inherit !important;
   }
 
-  .btn  {
+    #mail-button  {
     margin-top: 7px !important;
     margin-bottom: 10px !important;
     padding: 10px !important;
@@ -123,7 +123,7 @@ a {
 
 @media (max-width: 414px) {
 
-    img  {
+    .img  {
         padding-bottom: px;
         height: 150px;
         text-align: center;

@@ -107,7 +107,7 @@ a {
     border-color: #337ab7;
   }
 
-  .modal-title, #mail-button, .btn {
+  .modal-title, #mail-button, .btn, ::-webkit-input-placeholder {
     font-family: 'Hubballi', cursive !important;
     font-size: 20px;
   }

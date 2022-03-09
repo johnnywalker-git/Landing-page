@@ -113,18 +113,6 @@ a {
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
   @media screen and (max-width: 414px) {
 
     img  {
@@ -157,4 +145,11 @@ a {
     padding: 1.5%;
     text-align: center;
     }
-}
+
+    #mail-button {
+        height: 100%auto !important;
+        width: auto !important;
+        padding: 10px !important;
+        background-color: black !important;
+        border-radius: 10px !important; 
+    }}

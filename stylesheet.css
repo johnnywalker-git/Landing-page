@@ -42,11 +42,12 @@ img  {
 }
 
 body {
-    background-color:gray;
+    background-color:gray !important;
 }
 
 .tracks {
     margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     background-color: #b3b3b357;
     border-radius: 10px; 
@@ -84,10 +85,30 @@ body {
 
 
 a {
-    color:inherit;
+    color:inherit !important;
+  }
+
+  .btn  {
+    margin-top: 7px !important;
+    margin-bottom: 10px !important;
+    padding: 10px !important;
+    background-color: #b3b3b357 !important;
+    border-radius: 20px !important; 
+    border: 10px black !important;
+    
+    color:whitesmoke !important;
+    
+
+  }
+
+  .modal-header.primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
   }
 
 
+ 
 
 
 
@@ -98,8 +119,7 @@ a {
 
 
 
-
-
+<!-- Media Queries -->
 
 @media (max-width: 414px) {
 
@@ -124,5 +144,12 @@ a {
         border-radius: 10px;
         background-size: cover;
 
+    }}
 
-}
+
+    .form {
+        border: 1px solid black;
+    padding: 1.5%;
+    text-align: center;
+    }
+

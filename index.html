@@ -76,28 +76,30 @@
   </button>
   </div>
   <!-- Modal -->
-  <div class="modal fade bg-dark " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content bg-dark">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel" text-light strong style="color:whitesmoke !important">Sign up to my mailing list!</h5>
+          <h5 class="modal-title" id="exampleModalLabel" text-light strong style="color:whitesmoke; center !important">Sign up to my mailing list! <br>FREE Exclusive tracks, and a welcome pack!</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body, text-center">
             <form
             action="https://formspree.io/f/xeqnkdrb"
             method="POST">
-            <label></label><input type='text' class="form-control" name='name' placeholder='Name' bg-dark ></br></br>
-            <label></label><input type='text' class="form-control" name='email' placeholder='Email'></br></br>
+            <div class="inputgroup">
+            <label></label><input type='text' class="form-control" name='name' placeholder='Name' bg-dark >
+            <label></label><input type='text' class="form-control" name='email' placeholder='Email'>
             <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Submit</button>
             </form>
+            </div>
         
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           
         </div>
       </div>
-    </div>
+    
   </div>
 
 

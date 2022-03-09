@@ -112,6 +112,29 @@ a {
     font-size: 20px;
   }
 
+  
+.modal-dialog {
+          width: 360px;
+        }
+.modal-header {
+    background-color: #b3b3b357;
+    padding:5px 5px;
+    color:#FFF;
+    border-bottom:1px dashed whitesmoke;
+ }
+
+
+.modal-footer {
+  background-color:#b3b3b357;
+  padding: 1rem;
+  border-top: 1px solid #e9ecef;
+}
+
+
+.inputgroup {
+    background-color: #ffffff75;
+}
+
 
   @media screen and (max-width: 414px) {
 
@@ -137,19 +160,4 @@ a {
         border-radius: 10px;
         background-size: cover;
 
-    }
-
-
-    .form {
-        border: 1px solid black;
-    padding: 1.5%;
-    text-align: center;
-    }
-
-    #mail-button {
-        height: 100%auto !important;
-        width: auto !important;
-        padding: 10px !important;
-        background-color: black !important;
-        border-radius: 10px !important; 
     }}

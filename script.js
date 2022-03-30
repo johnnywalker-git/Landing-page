@@ -1,6 +1,16 @@
-// var myModal = document.getElementById('myModal')
-// var myInput = document.getElementById('myInput')
+let trackImages = document.getElementById("background");
+let mailingButton = document.getElementById("form-submit-event");
+let trackDownloads = [
 
-// myModal.addEventListener('shown.bs.modal', function () {
-//   myInput.focus()
-// })
+]
+const imgs = [
+    "images/track-1.png",
+    "images/track-2.png",
+    "images/track-3.png"
+]
+
+mailingButton.addEventListener('click', allowDownloads())
+
+function allowDownloads(){
+imgs.forEach(img => trackImages.innerHTML+=`<img src=${img} class="track-background">`)
+}

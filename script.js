@@ -26,5 +26,5 @@ function renderTracks() {
     tracks.forEach(track => trackDownloads.innerHTML+=`<a class="track-background" href="${track}">Download</a>`)
     }
 
-console.log(renderImage())
-console.log(renderTracks())
+renderImage()
+renderTracks()

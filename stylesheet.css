@@ -62,7 +62,7 @@ body {
 }
 
 
-.all-track-background {
+.all-track-background, #track-downloads {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
@@ -79,6 +79,18 @@ body {
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
+  color: whitesmoke;
+  
+}
+
+.under-track {
+  background-color: #ffffff75;
+  /* height: 100%auto;
+  width: 50px; */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  
 
 }
 
@@ -115,9 +127,10 @@ body {
     border-color: #337ab7;
   }
 
-  .modal-title, #mail-button, .btn, ::-webkit-input-placeholder {
+  .modal-title, #mail-button, .btn, ::-webkit-input-placeholder, .track-background {
     font-family: 'Hubballi', cursive !important;
     font-size: 20px;
+    
   }
 
   

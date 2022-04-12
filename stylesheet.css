@@ -1,186 +1,183 @@
-
 .nav-bar {
-    background-color: #b3b3b37a;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: auto;
-    height: 50px;
-    padding: 5px;
-    border-radius: 10px;
-    margin-top: 10px;
-    position: relative;
-    
+  background-color: #b3b3b37a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 10px;
+  position: relative;
+  
 }
 
 .jw-head {
-    margin-bottom: 390px;
-    height: 20px;
-    text-align: center;
-    
-   
+  margin-bottom: 390px;
+  height: 20px;
+  text-align: center;
+  
+ 
 }
 
 .free-music {
-  padding-bottom: 700px;
-  padding-left: 700px;
-  height: 20px;
-  text-align:right;
-  position: absolute;
- 
+padding-bottom: 700px;
+padding-left: 700px;
+height: 20px;
+text-align:right;
+position: absolute;
+
 }
- 
+
 img  {
-    padding-bottom: px;
-    height: 250px;
-    text-align: center;
-    
+  padding-bottom: px;
+  height: 250px;
+  text-align: center;
+  
 }
 
 .header {
-    
-    height: 350px;
-    background-color: black;
-    background-image: url("https://johnnywalker-git.github.io/Landing-page/jw-photo.jpg");
-    background-position: center;
-    border-radius: 10px;
-    background-size: cover;
-    
-    
+  
+  height: 350px;
+  background-color: black;
+  background-image: url("https://johnnywalker-git.github.io/Landing-page/jw-photo.jpg");
+  background-position: center;
+  border-radius: 10px;
+  background-size: cover;
+  
+  
 }
 
 body {
-    background-color:gray !important;
+  background-color:gray !important;
 }
 
 .tracks {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #b3b3b357;
-    border-radius: 10px;  
-}
-
-
-.all-track-background, #track-downloads {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
   background-color: #b3b3b357;
   border-radius: 10px;  
-  display: flex;
-  justify-content: space-around;
+}
+
+
+.all-track-background, #track-downloads {
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 10px;
+background-color: #b3b3b357;
+border-radius: 10px;  
+display: flex;
+justify-content: space-around;
 }
 
 .track-background {
-  background-color: #ffffff75;
-  /* height: 100%auto;
-  width: 50px; */
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  color: whitesmoke;
-  
+background-color: #ffffff75;
+/* height: 100%auto;
+width: 50px; */
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 10px;
+color: whitesmoke;
+
 }
 
 .under-track {
-  background-color: #ffffff75;
-  /* height: 100%auto;
-  width: 50px; */
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  
+background-color: #ffffff75;
+/* height: 100%auto;
+width: 50px; */
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 10px;
+
 
 }
 
 .p-track-1, .p-track-2 {
 
-    height: 100%auto;
-    width: auto;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #ffffff75;
-    border-radius: 10px;  
+  height: 100%auto;
+  width: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff75;
+  border-radius: 10px;  
 }
 
-  a {
-    color:inherit !important;
-    }
-
-    #mail-button  {
-    margin-top: 7px !important;
-    margin-bottom: 10px !important;
-    padding: 10px !important;
-    background-color: #b3b3b357 !important;
-    border-radius: 20px !important; 
-    border: 10px black !important;
-    text-decoration: underline !important;
-    color:whitesmoke !important;
-    
-
+a {
+  color:inherit !important;
   }
 
-  .modal-header.primary {
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #337ab7;
-  }
-
-  .modal-title, #mail-button, .btn, ::-webkit-input-placeholder, .track-background {
-    font-family: 'Hubballi', cursive !important;
-    font-size: 20px;
-    
-  }
-
+  #mail-button  {
+  margin-top: 7px !important;
+  margin-bottom: 10px !important;
+  padding: 10px !important;
+  background-color: #b3b3b357 !important;
+  border-radius: 20px !important; 
+  border: 10px black !important;
+  text-decoration: underline !important;
+  color:whitesmoke !important;
   
+
+}
+
+.modal-header.primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+.modal-title, #mail-button, .btn, ::-webkit-input-placeholder, .track-background {
+  font-family: 'Hubballi', cursive !important;
+  font-size: 20px;
+  
+}
+
+
 .modal-dialog {
-          width: 360px;
-        }
+        width: 360px;
+      }
 .modal-header {
-    background-color: #b3b3b357;
-    padding:5px 5px;
-    color:#FFF;
-    border-bottom:1px dashed whitesmoke;
- }
+  background-color: #b3b3b357;
+  padding:5px 5px;
+  color:#FFF;
+  border-bottom:1px dashed whitesmoke;
+}
 
 
 .modal-footer {
-  background-color:#b3b3b357;
-  padding: 1rem;
-  border-top: 1px solid #e9ecef;
+background-color:#b3b3b357;
+padding: 1rem;
+border-top: 1px solid #e9ecef;
 }
 
 
 .inputgroup {
-    background-color: #ffffff75;
+  background-color: #ffffff75;
 }
 
 
-  @media screen and (max-width: 414px) {
+@media screen and (max-width: 414px) {
 
-    img  {
-        padding-bottom: px;
-        height: 150px;
-        text-align: center;
-        
-    }
+  img  {
+      padding-bottom: px;
+      height: 120px;
+      text-align: center;
+      
+  }
 
-    .jw-head {
-        padding-bottom: 200px;
-        height: 20px;
-        text-align: center;
-    }
+  .jw-head {
+      padding-bottom: 200px;
+      height: 20px;
+      text-align: center;
+  }
 
-    .header {
-    
-        height: 250px;
-        background-color: black;
-        background-image: url("https://johnnywalker-git.github.io/Landing-page/jw-photo.jpg");
-        background-position: center;
-        border-radius: 10px;
-        background-size: cover;
+  .header {
+  
+      height: 250px;
+      background-color: black;
+      background-image: url("https://johnnywalker-git.github.io/Landing-page/jw-photo.jpg");
+      background-position: center;
+      border-radius: 10px;
+      background-size: cover;
 
-    }}
-
-    
+  }}

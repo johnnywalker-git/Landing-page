@@ -166,7 +166,7 @@ border-top: 1px solid #e9ecef;
   }
 
   .jw-head {
-      padding-bottom: 200px;
+      padding-top: 210px;
       height: 20px;
       text-align: center;
   }
@@ -180,4 +180,12 @@ border-top: 1px solid #e9ecef;
       border-radius: 10px;
       background-size: cover;
 
+  }
+
+  .free-music {
+    padding-bottom: 400px;
+    padding-left: 220px;
+    height: 20px;
+    text-align:right;
+    position: absolute;
   }}

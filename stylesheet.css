@@ -17,16 +17,6 @@ img  {
 }
 
 
-/* .free-music {
-padding-bottom: 700px;
-padding-left: 700px;
-height: 20px;
-text-align:right;
-position: absolute;
-
-} */
-
-
 
 .header {
   
@@ -115,9 +105,7 @@ a {
   }
 
   #mail-button  {
-  margin-top: 7px !important;
-  margin-bottom: 10px !important;
-  padding: 10px !important;
+  margin: 10px !important;
   background-color: #b3b3b357 !important;
   border-radius: 20px !important; 
   border: 10px black !important;
@@ -136,8 +124,10 @@ a {
 .modal-title, #mail-button, .btn, ::-webkit-input-placeholder, .track-background {
   font-family: 'Hubballi', cursive !important;
   font-size: 20px;
+  margin: 10px !important;
   
 }
+
 
 
 .modal-dialog {

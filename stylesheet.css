@@ -38,8 +38,11 @@ position: absolute;
   background-size: cover;
   display: flex;
   justify-content: space-around;  
+<<<<<<< HEAD
   position: relative;
   margin: 10px;
+=======
+>>>>>>> New-Layout-
   
 }
 

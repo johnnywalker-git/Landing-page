@@ -50,6 +50,10 @@ body > div.header > div.free-music > a > img ,body > div.header > div.dj-lessons
 
 body {
   background-color:gray !important;
+  max-width: 800px;
+  justify-content: center;
+  margin: 0 auto !important;
+
 }
 
 .tracks {

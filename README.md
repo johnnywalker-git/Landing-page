@@ -9,3 +9,5 @@ The social links in the nav bar are linked to all of my social media and music s
 
 The 'free tracks' page takes an array of images, and links and renders the free download buttons and styles around these.
 The user can click the download button to download my tracks from the GitHub pages repository directly. 
+
+This is an on-going project, and ideas for future enhancements would be incorporating the SoundCloud API and possible BeatPort API to show new music which are making their way into my up-coming sets.

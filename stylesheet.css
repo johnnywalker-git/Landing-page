@@ -23,7 +23,7 @@ img  {
   
   height: 300px;
   background-color: black;
-  background-image: url("https://johnnywalker-git.github.io/Landing-page/jw-photo.jpg");
+  background-image:url(/site_images/jw-photo.jpg);
   background-position: center;
   border-radius: 10px;
   background-size: cover;
@@ -49,10 +49,12 @@ body > div.header > div.free-music > a > img ,body > div.header > div.dj-lessons
 
 
 body {
-  background-color:gray !important;
+  background-color:rgb(58, 58, 58) !important;
   max-width: 800px;
   justify-content: center;
   margin: 0 auto !important;
+  padding: 10px;
+  border: 10px;
 
 }
 
@@ -110,10 +112,11 @@ a {
   #mail-button  {
   margin: 10px !important;
   background-color: #b3b3b357 !important;
-  border-radius: 20px !important; 
+  border-radius: 10px !important; 
   border: 10px black !important;
   text-decoration: underline !important;
   color:whitesmoke !important;
+ 
   
 
 }
